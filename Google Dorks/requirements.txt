@@ -1,0 +1,6 @@
+requests
+dotenv
+rich
+selenium
+gpt4all
+webdriver_manager

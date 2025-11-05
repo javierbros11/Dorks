@@ -1,0 +1,8 @@
+requests
+dotenv
+rich
+google-search-results
+serpapi
+gpt4all
+webdriver_manager
+selenium
