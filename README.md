@@ -9,7 +9,7 @@ Antes de llevar a cabo la instalación requerimos previamente que se encuentre i
 
 [Download Python](https://www.python.org/downloads/)
 
-Para la ejecución de los dos programas basta con descargar los ficheros correspondientes y haber instalado los paquetes necesarios referenciados en el fichero **requirements.txt**.
+Para la ejecución de los dos programas basta con descargar los ficheros correspondientes y haber instalado los paquetes necesarios referenciados en el archivo **requirements.txt** dentro de ambos ficheros.
 
 A continuación, el comando de instalación de dichos paquetes:
 
