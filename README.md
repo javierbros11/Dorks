@@ -1,9 +1,8 @@
-
 # Google/DuckDuckGo Dorks
 
 Este repositorio consta de un conjunto conformado por dos directorios en el que agrupan los ficheros necesarios para la ejecución de dos programas principales que emplean Dorks para realizar **hacking con buscadores**, así como llevar a cabo una recopilación de los resultados encontrados en la búsqueda, descarga de ficheros según su formato, entre otras funcionalidades, así como destacar que se basan en el buscador de Google y DuckDuckGo.
 
-
+Se trata de un proyecto creado para aprender a usar Python orientado a la Ciberseguridad, en este caso al **hacking con buscadores**.
 ## Installation
 
 Antes de llevar a cabo la instalación requerimos previamente que se encuentre instalado Python en el equipo:
@@ -36,12 +35,23 @@ Para el correcto funcionamiento de los programas requerimos tener una API asocia
 | `API_KEY_GOOGLE` | `string` | **Necesario**. API key de Google |
 | `SEARCH_ENGINE_ID` | `string` | **Necesario**. ID del motor de búsqueda |
 
+Para más información de como establecer la `API_KEY_GOOGLE` y `SEARCH_ENGINE_ID` se recomienda visitar los siguentes enlaces:
+
+`API_KEY_GOOGLE` -> https://developers.google.com/apis-explorer?hl=es-419
+
+`SEARCH_ENGINE_ID` -> https://developers.google.com/custom-search/v1/overview?hl=es-419
+
+
 #### Con DuckDuckGo
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `API_KEY_DUCK`      | `string` | **Necesario**. API key de DuckDuckGo |
 
+
+Para más información de como establecer la `API_KEY_DUCK` se recomienda visitar el siguente enlace:
+
+`API_KEY_DUCK`  -> https://serpapi.com/duckduckgo-search-api
 
 
 
@@ -172,4 +182,4 @@ Realizar una búsqueda y almacenar todos los ficheros 'pdf' que se encuentren:
 ```
 ## Tech Stack
 
-Todos los archivos necesarios para su correcto funcionamiento se encuentran desarrollados en **Python**.
+Todos los archivos necesarios para el correcto funcionamiento de ambos programas presentados se encuentran desarrollados en **Python**.
