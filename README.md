@@ -3,8 +3,7 @@
 Este repositorio consta de un conjunto conformado por dos directorios en el que agrupan los ficheros necesarios para la ejecución de dos programas principales que emplean Dorks para realizar **hacking con buscadores**, así como llevar a cabo una recopilación de los resultados encontrados en la búsqueda, descarga de ficheros según su formato, entre otras funcionalidades, así como destacar que se basan en el buscador de Google y DuckDuckGo.
 
 Se trata de un proyecto creado para aprender a usar Python orientado a la Ciberseguridad, en este caso al **hacking con buscadores**.
-## Installation
-
+## Instalación
 Antes de llevar a cabo la instalación requerimos previamente que se encuentre instalado Python en el equipo:
 
 [Download Python](https://www.python.org/downloads/)
@@ -24,7 +23,7 @@ A continuación, el comando de instalación de dichos paquetes:
 ```
 
 
-## API Reference
+## Referencias a las APIs
 
 Para el correcto funcionamiento de los programas requerimos tener una API asociada que haga referencia al navegador que vayamos a utilizar, así como el ID del motor de búsqueda en el caso de que usemos Google.
 
@@ -55,7 +54,7 @@ Para más información de como establecer la `API_KEY_DUCK` se recomienda visita
 
 
 
-## Features (Google Dorks)
+## Funciones (Google Dorks)
 
 - **Configuración**: Inicia el proceso de configuración del archivo .env. Utiliza esta opcion sin otros argumentos para configurar las claves.
 - **Consulta**: Indica la consulta que queremos realizar en el buscador.
@@ -106,7 +105,7 @@ options:
                         realizar cualquier búsqueda.
 ```
 
-## Features (DuckDuckGo Dorks)
+## Funciones (DuckDuckGo Dorks)
 
 - **Configuración**: Inicia el proceso de configuración del archivo .env. Utiliza esta opcion sin otros argumentos para configurar las claves.
 - **Motor de búsqueda**: Indica el motor de búsqueda que se usará para realizar peticiones. Por ejemplo: 'duckduckgo' (parámetro obligatorio).
@@ -155,7 +154,7 @@ options:
                         realizar cualquier búsqueda.
 ```
 
-# Usage/Examples
+# Ejemplos de uso
 
 Recopilar los 10 primeros resultados web de una búsqueda y los muestre por pantalla:
 
@@ -180,6 +179,6 @@ Realizar una búsqueda y almacenar todos los ficheros 'pdf' que se encuentren:
 ```bash
   python duck_dork.py -e "duckduckgo" -q "consulta" --download 'pdf'
 ```
-## Tech Stack
+## Desarrollo
 
 Todos los archivos necesarios para el correcto funcionamiento de ambos programas presentados se encuentran desarrollados en **Python**.
