@@ -182,3 +182,9 @@ Realizar una búsqueda y almacenar todos los ficheros 'pdf' que se encuentren:
 ## Desarrollo
 
 Todos los archivos necesarios para el correcto funcionamiento de ambos programas presentados se encuentran desarrollados en **Python**.
+
+## Disclaimer
+
+El script fue creado únicamente por motivos educativos, principalmente para aprender a realizar scripts o programas desarrollados en Python que involucren conceptos o casos prácticos a la Ciberseguridad o al Hacking Ético.
+
+Se ruega utilizar los programas añadidos a este repositorios para dicho fin sobre equipos aislados o virtuales para simular el entorno, en caso contrario, no nos hacemos responsables de su uso fuera de ese ámbito.
