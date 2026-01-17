@@ -90,13 +90,13 @@ if __name__ == "__main__":
     parser.add_argument("--pages",type=int,default=1,
                         help="Es el número de páginas en total que se desean consultar. Cada página consta de 10 resultados de búsqueda.\n")
     parser.add_argument("--lang",type=str,default="lang_es",
-                        help="Código de idioma de cara a los resultados de búsqueda. Por defecto es 'lang-es' (español)\n")
+                        help="Código de idioma de cara a los resultados de búsqueda. Por defecto es 'lang-es' (español).\n")
     parser.add_argument("--html",type=str,
                         help="Exporta los resultados en formarto HTML indicando el nombre del archivo con su extensión .html. Se almacena en la misma ruta que el programa principal.\n")
     parser.add_argument("--json",type=str,
                         help="Exporta los resultados en formato JSON, indicando el nombre del archivo con su extensión .json. Se almacena en la misma ruta que el programa principal.\n")
     parser.add_argument("--download", type=str,
-                        help="Permite la descarga de ficheros, indicando previamente la extensión de los archivos que se desean descargar.\nEjemplo: --download 'pdf,sql,doc'\n Si deseas descargar todos los formatos de archivos. Ejemplo: --download 'all'\n")
+                        help="Permite la descarga de ficheros, indicando previamente la extensión de los archivos que se desean descargar.\nEjemplo: --download 'pdf,sql,doc'\n Si deseas descargar todos los formatos de archivos. Ejemplo: --download 'all'.\n")
     parser.add_argument("-gd","--generate-dork", type=str,
                         help="Genera un Dork a través de una descripción otorgada por el usuario. GPT4All será el encargado de generar dicha consulta." \
                         "Por ejemplo: --generate-dork 'Listado de usuarios y passwds en un fichero de texto.'\n")
